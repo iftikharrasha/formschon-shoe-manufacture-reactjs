@@ -1,0 +1,33 @@
+.hero-bg{
+    position: relative;
+}
+
+
+.hero-banner {
+    position: absolute;
+    top: 0%;
+    left: 7%;
+    z-index: 1;
+}
+
+.hero .carousel-control-next, .hero .carousel-control-prev  {
+    display: none;
+}
+
+.hero .carousel-indicators li {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    opacity: .5;
+    background-color: #707070;
+}
+
+.hero .carousel-indicators .active {
+    background-color: #a68260;
+    opacity: 1;
+}
+
+.hero .carousel-indicators {
+    bottom: 150px;
+}

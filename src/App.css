@@ -1,0 +1,183 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #F7F8FA;
+	background-color: #000000;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding:0;
+}
+
+ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+
+a{
+	margin:0;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+a, select , input , textarea , button{
+	outline: none !important;
+}
+
+.overflowX {
+	overflow-x: hidden;
+}
+
+.overflowY {
+	overflow-y: hidden;
+}
+
+.c_custom{
+	max-width: 1640px !important;
+}
+
+.mt-220{
+	margin-top: 220px;
+}
+
+/* .App{
+  position:relative;
+  top: 0;
+  left: 0;
+  right: 0;
+} */
+
+.fade-enter{
+  opacity: 0;
+}
+.fade-exit{
+  opacity: 1;
+}
+.fade-enter-active{
+  opacity: 1;
+}
+.fade-exit-active{
+  opacity: 0;
+}
+.fade-enter-active,
+.fade-exit-active{
+  transition: opacity 400ms;
+}
+
+.social-icons {
+  position: fixed;
+  top: 50%;
+  right: 50px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  box-sizing: border-box!important;
+  display: block;
+  direction: ltr!important;
+  z-index: 9999;
+}
+
+.social-icons ul li a{
+color: #808080;
+font-size: 22px;
+}
+
+/* buttons */
+.btn-tag-1{
+	padding: 20px 40px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+/* colors */
+.c-tag-1{
+	color: #F8F6F1 !important;
+}
+
+.c-tag-2{
+	color: #a68260 !important;
+}
+
+.c-tag-3{
+	color: #000000 !important;
+}
+
+.c-tag-4{
+	color: #FFFFFF !important;
+}
+
+.c-tag-5{
+    color: #27231F !important;
+}
+
+.c-tag-6{
+    color: #444341 !important;
+}
+
+.c-tag-7{
+    color: #222222 !important;
+}
+/* background */
+.bg-tag-1{
+	background-color: #a68260;
+}
+
+.bg-tag-2{
+    background-color: #F8F6F1;
+}
+
+.bg-tag-3{
+    background-color: #1C1A16;
+}
+/* fonts */
+.sem-200 {
+	font-family: 'Playfair Display', serif;
+    font-size: 200px;
+	font-weight: 600;
+}
+
+.sem-124{
+	font-family: 'Playfair Display', serif;
+	font-size: 124px;
+	font-weight: 600;
+	line-height: 124px;
+	letter-spacing: -5px;
+}
+
+.sem-60{
+	font-family: 'Playfair Display', serif;
+	font-size: 60px;
+	font-weight: 600;
+}
+
+.reg-30{
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+    line-height: 33px;
+}
+
+.reg-24{
+	font-size: 24px;
+	line-height: 36px;
+}
+
+.reg-22{
+	font-size: 22px;
+	line-height: 33px;
+	letter-spacing: 2px;
+}
+
+.lit-23{
+	font-size: 23px;
+	font-weight: 300;
+	line-height: 36px;
+	letter-spacing: 8px;
+}
