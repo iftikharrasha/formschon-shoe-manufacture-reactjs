@@ -15,6 +15,9 @@ import LazyLoad from './Components/LayLoadSpinner/LazyLoadSpinner';
 import Hero from './Components/Hero/Hero';
 // import logo from './logo.svg';
 import './App.css';
+import SocialMedia from './Components/SocialMedia/SocialMedia.js';
+import September from './Components/September/September.js';
+import Header from './Components/Header/Header.js';
 const NotFound = lazy(() => import('./Components/NotFound/NotFound'));
 
 function App() {
@@ -52,7 +55,10 @@ function App() {
                                 </Route>
                                 <Route exact path="/">
                                         <Suspense fallback={<LazyLoad></LazyLoad>}>
+                                            <Header></Header>
                                             <Hero></Hero>
+                                            <September></September>
+                                            <SocialMedia></SocialMedia>
                                         </Suspense>
                                 </Route>
                                 <Route path="*">
@@ -66,16 +72,6 @@ function App() {
                  )} />
             </ScrollToTop>
         </Router>
-
-        
-        <div class="social-icons">
-            <ul>
-              <li><a href="https://www.snapchat.com/l/en-gb/"><i class="fa fa-snapchat-square" aria-hidden="true"></i></a></li>
-              <li><a href="https://www.youtube.com/"><i class="fab fa-youtube-square"></i></a></li>
-              <li><a href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-              <li><a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a></li>
-            </ul>
-        </div>
     </div>
   );
 }
