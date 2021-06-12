@@ -253,7 +253,9 @@ nav .show {
   *
   /****** Extra extra small devices (s6 mobiles, 320px and below) *******/
   @media (max-width: 320px) {
-      
+    .backgrounColorToggle {
+        margin-left: 18% !important;
+    }
   }
   
   /****** Extra extra small devices (s6 mobiles, 375px and below) *******/

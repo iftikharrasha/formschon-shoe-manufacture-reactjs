@@ -1,42 +1,44 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import formschon from '../../img/formschon.png';
 import './Header.css';
 
 const Header = () => {
-    const hamburger = document.getElementById("hamburger");
-    const nav = document.querySelector("nav");
-    const burgerSvg = document.querySelectorAll("rect");
-    const menu = document.querySelector("ul.menu");
-    const navLink = document.getElementsByClassName("navLink");
+    // const hamburger = document.getElementById("hamburger");
+    // const nav = document.querySelector("nav");
+    // const burgerSvg = document.querySelectorAll("rect");
+    // const menu = document.querySelector("ul.menu");
+    // const navLink = document.getElementsByClassName("navLink");
 
-    window.onresize = function (event) {
-        if (window.innerWidth >= 600 && nav.className == "menuToggle") {
-            toggleMenu();
-        }
-    };
+    // window.onresize = function (event) {
+    //     if (window.innerWidth >= 600 && nav.className == "menuToggle") {
+    //         toggleMenu();
+    //     }
+    // };
 
-    function activeToggle(){
-        let i;
-        for (i = 0; i < navLink.length; i++) {
-                navLink[i].setAttribute("tabindex", 0);
-                navLink[i].onClick = function () {
-                toggleMenu();
-            };
-            if (nav.classList.contains("menuToggle")) {
-                navLink[i].setAttribute("tabindex", -1);
-            }
-        }
-        toggleMenu();
-    }
+    // function activeToggle(){
+    //     let i;
+    //     for (i = 0; i < navLink.length; i++) {
+    //             navLink[i].setAttribute("tabindex", 0);
+    //             navLink[i].onClick = function () {
+    //             toggleMenu();
+    //         };
+    //         if (nav.classList.contains("menuToggle")) {
+    //             navLink[i].setAttribute("tabindex", -1);
+    //         }
+    //     }
+    //     toggleMenu();
+    // }
 
-    function toggleMenu() {
-        nav.classList.toggle("menuToggle");
-        menu.classList.toggle("show");
-        hamburger.classList.toggle("backgrounColorToggle");
-        burgerSvg[0].classList.toggle("top");
-        burgerSvg[1].classList.toggle("middle");
-        burgerSvg[2].classList.toggle("bottom");
-    }
+    // function toggleMenu() {
+    //     nav.classList.toggle("menuToggle");
+    //     menu.classList.toggle("show");
+    //     hamburger.classList.toggle("backgrounColorToggle");
+    //     burgerSvg[0].classList.toggle("top");
+    //     burgerSvg[1].classList.toggle("middle");
+    //     burgerSvg[2].classList.toggle("bottom");
+    // }
 
     const checkpoint = 300;
  
@@ -57,7 +59,8 @@ const Header = () => {
             <header className="header">
                 <div className="container-fluid">
                     <nav>
-                        <button className="toggle-btn" id="hamburger" onClick={activeToggle}>
+                    {/* onClick={activeToggle} */}
+                        <button className="toggle-btn" id="hamburger">
                             <svg viewBox="0 0 100 80" width="40" height="40">
                             <rect width="100" height="10" rx="7"></rect>
                             <rect width="100" height="10" rx="7" y="30"></rect>

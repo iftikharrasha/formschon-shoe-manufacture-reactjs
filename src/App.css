@@ -57,10 +57,6 @@ a, select , input , textarea , button{
 	margin-top: 300px;
 }
 
-.mt-sep-300{
-    margin-top: 0;
-}
-
 .pt-200{
     padding-top: 200px;
 }
@@ -232,6 +228,14 @@ a, select , input , textarea , button{
   .btn-tag-1:last-child {
       margin-top: 20px;
   }
+
+  .mt-sep-300{
+      margin-top: 0;
+  }
+
+    .mt-sep-130 {
+        margin-top: 450px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -465,10 +469,35 @@ a, select , input , textarea , button{
 *
 /****** Extra extra small devices (s6 mobiles, 320px and below) *******/
 @media (max-width: 320px) {
-	
+	.sem-124 {
+        font-size: 37px;
+        line-height: 37px;
+    }
+
+    .mt-lei-300{
+        margin-top: 100px;
+    }
+
+    .btn-tag-1:last-child {
+        display: block;
+        margin-top: 10px;
+    }
+    
 }
 
 /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
 @media (min-width: 321px) and (max-width: 376px) {
-	
+	.sem-124 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .mt-lei-300{
+        margin-top: 100px;
+    }
+
+    .btn-tag-1:last-child {
+        display: block;
+        margin-top: 10px;
+    }
 }

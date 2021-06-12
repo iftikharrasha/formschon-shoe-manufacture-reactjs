@@ -5,8 +5,8 @@ import './September.css';
 const September = () => {
     return (
         <>
-            <section className="september mt-300" id="chronologie">
-                <div className="container c_custom">
+            <section className="september mt-300 mt-sep-300" id="chronologie">
+                <Container className="c_custom">
                     <Row>
                         <Col md={5} className="offset-md-6 col-md-sep offset-md-sep mt-300 mt-sep-130">
                             <div className="september-inner">
@@ -18,7 +18,7 @@ const September = () => {
                             </div>
                         </Col>
                     </Row>
-                </div>
+                </Container>
             </section>
         </>
     );

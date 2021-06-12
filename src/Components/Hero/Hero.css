@@ -1,6 +1,6 @@
-/* .hero-bg{
+.hero{
     position: relative;
-} */
+}
 
 .hero-banner {
     position: absolute;
@@ -35,6 +35,11 @@
     margin-top: -240px;
 }
 
+.deco {
+    position: absolute;
+    top: 801px;
+    z-index: 2;
+}
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 	.hero-bg img {
@@ -56,6 +61,11 @@
 
     .hero .owl-theme .owl-nav.disabled + .owl-dots {
         margin-top: -40px;
+    }
+
+    .deco {
+        top: 665px;
+        width: 30%;
     }
 }
 
@@ -81,6 +91,10 @@
     .hero .owl-theme .owl-nav.disabled + .owl-dots {
         margin-top: -50px;
     }
+
+    .deco {
+        top: 720px;
+    }
 }
 
 /* Medium devices(sm) (tablets, 768px and up) */
@@ -105,6 +119,10 @@
     .hero .owl-theme .owl-nav.disabled + .owl-dots {
         margin-top: -50px;
     }
+
+    .deco {
+        top: 720px;
+    }
 }
 
 /* Large devices(md) (desktops, 992px and up) */
@@ -125,6 +143,10 @@
     .hero .owl-theme .owl-nav.disabled + .owl-dots {
         margin-top: -50px;
     }
+
+    .deco {
+        top: 700px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -138,6 +160,11 @@
     .hero .carousel-indicators {
         bottom: 50px;
     }
+    
+    .deco {
+        top: 670px;
+    }
+
 }
   
 /* Extra large devices (large desktops, 1442px and up) */

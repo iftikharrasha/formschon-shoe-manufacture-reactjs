@@ -6,6 +6,8 @@ import {
 } from "react-router-dom";
 import ScrollToTop from './ScrollToTop.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 // import { Button } from 'react-bootstrap';
 import {
   CSSTransition,
@@ -18,6 +20,8 @@ import './App.css';
 import SocialMedia from './Components/SocialMedia/SocialMedia.js';
 import September from './Components/September/September.js';
 import Header from './Components/Header/Header.js';
+import Eleganz from './Components/Eleganz/Eleganz.js';
+import MeilenSlider from './Components/MeilenSlider/MeilenSlider.js';
 const NotFound = lazy(() => import('./Components/NotFound/NotFound'));
 
 function App() {
@@ -58,6 +62,8 @@ function App() {
                                             <Header></Header>
                                             <Hero></Hero>
                                             <September></September>
+                                            <Eleganz></Eleganz>
+                                            <MeilenSlider></MeilenSlider>
                                             <SocialMedia></SocialMedia>
                                         </Suspense>
                                 </Route>

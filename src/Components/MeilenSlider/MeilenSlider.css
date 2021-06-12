@@ -1,0 +1,254 @@
+.milestone{
+    position: relative;
+}
+
+.milestone-item{
+    position: relative;
+    width: 100%;
+    height: 520px;
+}
+
+.m-item-img{
+    position: absolute;
+}
+
+.m-item-details {
+    background-color: #fff;
+    width: 60%;
+    min-height: 420px;
+    padding: 90px;
+    position: absolute;
+    top: 45px;
+    left: 250px;
+}
+
+.slick-slide:focus {
+	outline: none !important;
+}
+
+.slick-prev:before {
+    content: "‹";
+    position: relative;
+    top: 4px;
+}
+
+.slick-next:before {
+    content: "›";
+    position: relative;
+    top: 4px;
+}
+
+.slick-next:before,
+.slick-prev:before {
+	font-size: 55px;
+    color: #A68260;
+    line-height: 0;
+}
+
+.slick-dots{
+    width: 95%;
+}
+
+.responsive1 .slick-prev {
+    z-index: 9999;
+    top: 668px;
+    left: auto;
+    right: 52%;
+    z-index: 1;
+}
+
+.responsive1 .slick-next {
+    z-index: 9999;
+    top: 668px;
+    right: 45%;
+    z-index: 1;
+}
+
+.slick-next, .slick-prev{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #a68260;
+}
+
+.responsive3 .slick-dots {
+    margin-bottom: 40px;
+}
+
+.slick-dots li button {
+	background: transparent;
+}
+
+.slick-dots li button:before {
+    font-size: 40px;
+    color: #a68260 !important;
+}
+
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+    .m-item-img img {
+        width: 100%;
+        transform: rotate(90deg);
+    }
+
+    .m-item-img {
+        position: absolute;
+        z-index: -1;
+    }
+
+    .m-item-details {
+        width: 90%;
+        height: 350px;
+        min-height: 350px;
+        position: absolute;
+        left: 5%;
+        top: 170px;
+        padding: 50px 24px;
+        text-align: center;
+    }
+
+    .responsive1 .slick-dots{
+        bottom: -100px;
+    }
+
+    .responsive2 .slick-dots {
+        bottom: 145px;
+    }
+  }
+  
+    /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .m-item-details {
+        width: 400px;
+        min-height: 380px;
+        padding: 40px;
+    }
+
+    .m-item-img {
+        position: static;
+    }
+
+     .m-item-img img {
+        width: 65%;
+    }
+
+    .responsive1 .slick-prev {
+        top: 650px;
+        right: 55%;
+    }
+    
+    .responsive1 .slick-next {
+        top: 650px;
+        right: 41%;
+    }
+
+    .responsive2 .slick-next {
+        top: 100px;
+        right: 12%;
+    }
+
+    .responsive2 .slick-prev {
+        top: 100px;
+        right: 26%;
+    }
+  }
+  
+  /* Medium devices(sm) (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .m-item-details {
+        width: 400px;
+        min-height: 380px;
+        padding: 40px;
+    }
+
+    .m-item-img {
+        position: static;
+    }
+
+     .m-item-img img {
+        width: 65%;
+    }
+  }
+  
+  /* Large devices(md) (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1299.98px) {
+    .m-item-img img {
+        width: 84%;
+    }
+
+    .m-item-details {
+        width: 300px;
+        min-height: 320px;
+        padding: 20px;
+        top: 45px;
+        left: 180px;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1300px) and (max-width: 1531.98px){
+    .m-item-details {
+        width: 400px;
+        min-height: 420px;
+        padding: 70px;
+        top: 45px;
+        left: 220px;
+    }
+  }
+    
+  /* Extra large devices (large desktops, 1442px and up) */
+  @media (min-width: 1532px) and (max-width: 2499.99px) {
+    
+  }
+  
+  /* Extra large devices (large desktops, 1900px and up) */
+  @media (min-width: 2500px) {
+      
+  }
+  
+    
+  /*
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  /****** Extra extra small devices (s6 mobiles, 320px and below) *******/
+  @media (max-width: 320px) {
+    .milestone-item {
+        height: 620px;
+    }
+
+    .m-item-details {
+        top: 135px;
+    }
+
+    .m-item-details {
+        height: 390px;
+        min-height: 390px;
+        padding: 43px 10px;
+    }
+
+    .responsive1 .slick-dots {
+        bottom: 0;
+    }
+
+    .responsive2 .slick-dots {
+        bottom: 0;
+    }
+  }
+  
+  /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
+  @media (min-width: 321px) and (max-width: 376px) {
+    .m-item-details {
+        top: 135px;
+    }
+
+    .m-item-details {
+        height: 360px;
+        min-height: 360px;
+    }
+  }

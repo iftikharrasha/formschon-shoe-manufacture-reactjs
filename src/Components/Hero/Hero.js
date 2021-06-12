@@ -2,9 +2,11 @@ import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';  
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import { Container, Row, Col } from 'react-bootstrap';
 import bg01 from '../../img/header-visuel-1.png';
 import bg02 from '../../img/header-visuel-2.jpg';
 import bg03 from '../../img/header-visuel-3.jpg';
+import deco from '../../img/deco.png';
 import './Hero.css';
 
 const Hero = () => {
@@ -14,10 +16,10 @@ const Hero = () => {
                     <div className='hero-section' >            
                         <OwlCarousel items={1}  
                             className="owl-theme"
-                            autoplay ={false}
-                            loop  
+                            autoplay ={true}
+                            loop ={true}
                             nav={false} 
-                            margin={8} >  
+                            margin={0}>  
                             <div className="hero-bg">
                                 <img className="img" src={bg01} alt="Schuhe"/>
                             </div>  
@@ -31,9 +33,9 @@ const Hero = () => {
                     </div>  
 
                     <div className="hero-banner">
-                        <div className="container c_custom">
-                            <div className="row">
-                                <div className="col-md-12 mt-300 mt-220">
+                        <Container className="c_custom">
+                            <Row>
+                                <Col md={12} className="mt-300 mt-220">
                                     <div className="hero-inner">
                                         <p className="text-uppercase lit-23" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">Immer einen Schritt voraus</p>
                                         <h1 className="sem-124 mb-5" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500">20 Jahre<br/>Schuhmanufaktur<br/>Formschön</h1>
@@ -47,10 +49,13 @@ const Hero = () => {
                                             </a>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
+                                </Col>
+                            </Row>
+                        </Container>
                     </div> 
+                    <div class="deco">
+                        <img class="img-fluid" src={deco} alt="deco"/>
+                    </div>
                 </section>
         </>
     );
