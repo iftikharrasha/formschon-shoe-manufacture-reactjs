@@ -1,0 +1,209 @@
+.subpage{
+    background-image: url(../../img/mabshuhe.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 1060px;
+}
+
+.mabshuhe-inner {
+    position: relative;
+    bottom: 100px;
+    right: 7%;
+}
+
+.mabshuhe-inner  h2{
+    position: relative;
+    right: 7%;
+}
+
+.mab-img img{
+    position: relative;
+    width: 66%;
+    right: 10%;
+    float: right;
+}
+
+.sub-rect rect{
+    fill: rgb(177, 144, 96);
+}
+
+  /* Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) {
+    .pt-200 {
+        padding-top: 0;
+    }
+    
+    .subpage {
+        height: 1600px;
+    }
+
+    .mabshuhe-inner {
+        position: relative;
+        top: 165px;
+        right: 0;
+    }
+
+    .mabshuhe-inner h2 {
+        right: 0;
+        top: 25px;
+        font-size: 40px;
+    }
+
+    .mab-img img {
+        position: relative;
+        width: 100%;
+        right: 0;
+        top: 165px;
+        float: none;
+    }
+
+    .mabshuhe p{
+        font-size: 14px;
+    }
+  }
+  
+    /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .pt-200 {
+        padding-top: 0;
+    }
+    
+    .mabshuhe {
+        height: 900px;
+    }
+
+    .mabshuhe-inner {
+        position: relative;
+        bottom: 30%;
+        right: 0;
+    }
+
+    .mabshuhe-inner h2 {
+        right: 0;
+    }
+
+    .mab-img img {
+        position: relative;
+        width: 40%;
+        right: 5%;
+        top: 50%;
+        float: right;
+    }
+
+    .sem-mb-60 {
+        font-size: 36px;
+    }
+
+    .mabshuhe p{
+        font-size: 14px;
+    }
+  }
+  
+  /* Medium devices(sm) (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .pt-200 {
+        padding-top: 0;
+    }
+    
+    .mabshuhe {
+        height: 900px;
+    }
+
+    .mabshuhe-inner {
+        position: relative;
+        bottom: 30%;
+        right: 0;
+    }
+
+    .mabshuhe-inner h2 {
+        right: 0;
+    }
+
+    .mab-img img {
+        position: relative;
+        width: 40%;
+        right: 5%;
+        top: 50%;
+        float: right;
+    }
+
+    .sem-mb-60 {
+        font-size: 36px;
+    }
+
+    .mabshuhe p{
+        font-size: 14px;
+    }
+  }
+  
+  /* Large devices(md) (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1299.98px) {
+    .mabshuhe {
+        height: 900px;
+    }
+
+    .sem-mb-60 {
+        font-size: 36px;
+    }
+
+    .mabshuhe p{
+        font-size: 14px;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1300px) and (max-width: 1531.98px){
+      
+  }
+    
+  /* Extra large devices (large desktops, 1442px and up) */
+  @media (min-width: 1532px) and (max-width: 2499.99px) {
+    
+  }
+  
+  /* Extra large devices (large desktops, 1900px and up) */
+  @media (min-width: 2500px) {
+      
+  }
+  
+    
+  /*
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  /****** Extra extra small devices (s6 mobiles, 320px and below) *******/
+  @media (max-width: 320px) {
+    .subpage {
+        height: 1700px;
+    }
+
+    .mabshuhe-inner h2 {
+        font-size: 30px;
+    }
+
+    .sub-p{
+        height: 1600px;
+    }
+  }
+  
+  /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
+  @media (min-width: 321px) and (max-width: 376px) {
+    .subpage {
+        height: 1700px;
+    }
+
+    .mabshuhe-inner h2 {
+        font-size: 30px;
+    }
+
+    .sub-p{
+        height: 1600px;
+    }
+  }
+  

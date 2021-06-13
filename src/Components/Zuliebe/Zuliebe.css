@@ -60,10 +60,6 @@
   
   /* Large devices(md) (desktops, 992px and up) */
   @media (min-width: 992px) and (max-width: 1299.98px) {
-    .zuliebe {
-        padding-top: 100px;
-    }
-
     .zuliebe-right img{
         width: 15%;
     }

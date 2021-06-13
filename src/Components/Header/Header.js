@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { Link } from 'react-router-dom';
 import formschon from '../../img/formschon.png';
 import './Header.css';
 
@@ -40,18 +40,18 @@ const Header = () => {
     //     burgerSvg[2].classList.toggle("bottom");
     // }
 
-    const checkpoint = 300;
+    // const checkpoint = 300;
  
-    let opacity;
-    window.addEventListener("scroll", () => {
-    const currentScroll = window.pageYOffset;
-    if (currentScroll <= checkpoint) {
-        opacity = 1 - currentScroll / checkpoint;
-    } else {
-        opacity = 0;
-    }
-    document.querySelector(".brand").style.opacity = opacity;
-    });
+    // let opacity;
+    // window.addEventListener("scroll", () => {
+    // const currentScroll = window.pageYOffset;
+    // if (currentScroll <= checkpoint) {
+    //     opacity = 1 - currentScroll / checkpoint;
+    // } else {
+    //     opacity = 0;
+    // }
+    // document.querySelector(".brand").style.opacity = opacity;
+    // });
       
 
     return (
@@ -72,11 +72,17 @@ const Header = () => {
                             <li className="pb-sm-4 pb-3"><a href="#jubilaum" className="navLink reg-24 text-uppercase">Jubiläum</a></li>
                             <li className="pb-sm-4 pb-3"><a href="#chronologie" className="navLink reg-24 text-uppercase">Chronologie</a></li>
                             <li className="pb-sm-4 pb-3"><a href="#leistungen" className="navLink reg-24 text-uppercase">Leistungen</a></li>
-                            <li className="pb-sm-4 pb-3"><a href="massschuhe.html" className="navLink reg-24 text-uppercase">Maßschuhe</a></li>
-                            <li className="pb-sm-4 pb-3"><a href="pflege.html" className="navLink reg-24 text-uppercase">Pflegetipps</a></li>
+                            <li className="pb-sm-4 pb-3">
+                                <Link to="/massschuhe" className="navLink reg-24 text-uppercase">Maßschuhe</Link>
+                            </li>
+                            <li className="pb-sm-4 pb-3">
+                                <Link to="/pflege" className="navLink reg-24 text-uppercase">Pflegetipps</Link>
+                            </li>
                             <li className="pb-sm-4 pb-3"><a href="#stimmen" className="navLink reg-24 text-uppercase">Stimmen</a></li>
                             <li className="pb-sm-4 pb-3"><a href="#kontakt" className="navLink reg-24 text-uppercase">Öffnungszeiten und Kontakt</a></li>
-                            <li className="pb-sm-4 pb-3"><a href="impressum.html" className="navLink reg-24 text-uppercase">Impressum</a></li>
+                            <li className="pb-sm-4 pb-3">
+                                <Link to="/impressum" className="navLink reg-24 text-uppercase">Impressum</Link>
+                            </li>
                         </ul>
                     </nav>
                     <div className="brand">

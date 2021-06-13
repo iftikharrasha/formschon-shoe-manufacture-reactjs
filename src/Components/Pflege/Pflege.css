@@ -1,52 +1,65 @@
-.elegant{
-    overflow: hidden;
+.pflege-list ul li p span{
+    display: block;
 }
 
- /* Extra small devices (portrait phones, less than 576px) */
- @media (max-width: 575.98px) {
-    .elegant {
-        margin-top: 250px;
+  /* Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) {
+    .pfledge-inner {
+        position: relative;
+        top: 200px;
+        right: 0;
+    }
+
+    .sub-p{
+        height: 1600px;
+    }
+
+    .pflege-list ul li p span {
+        display: inline;
     }
   }
   
     /* Small devices (landscape phones, 576px and up) */
   @media (min-width: 576px) and (max-width: 767.98px) {
-    .elegant {
+    .pfledge-inner {
         position: relative;
-        bottom: 100px;
+        top: 120px;
+        right: 0;
+    }
+
+    .sub-p{
+        height: 1200px;
     }
   }
   
   /* Medium devices(sm) (tablets, 768px and up) */
   @media (min-width: 768px) and (max-width: 991.98px) {
-    .elegant {
+    .pfledge-inner {
         position: relative;
-        bottom: 100px;
+        top: 120px;
+        right: 0;
+    }
+
+    .sub-p{
+        height: 1200px;
     }
   }
   
   /* Large devices(md) (desktops, 992px and up) */
   @media (min-width: 992px) and (max-width: 1299.98px) {
-    .elegant {
-        position: relative;
-        bottom: 100px;
+    .pflege-list ul li p span {
+        margin-left: 0 !important;
     }
   }
   
   /* Extra large devices (large desktops, 1200px and up) */
   @media (min-width: 1300px) and (max-width: 1531.98px){
-    .elegant {
-        position: relative;
-        bottom: 0px;
-        z-index: 1;
-    }
+      
   }
     
   /* Extra large devices (large desktops, 1442px and up) */
   @media (min-width: 1532px) and (max-width: 2499.99px) {
-    .elegant {
-        margin-top: 100px;
-    }
+    
   }
   
   /* Extra large devices (large desktops, 1900px and up) */
@@ -65,14 +78,11 @@
   *
   /****** Extra extra small devices (s6 mobiles, 320px and below) *******/
   @media (max-width: 320px) {
-    .elegant{
-        margin-top: 390px;
-    }
+   
   }
   
   /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
   @media (min-width: 321px) and (max-width: 376px) {
-    .elegant{
-        margin-top: 300px;
-    }
+    
   }
+  

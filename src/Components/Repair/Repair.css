@@ -186,10 +186,14 @@
             height: 824px;
         }
 
-       .repair-text {
+        .repair-item {
+            height: 700px;
+        }
+
+        .repair-text {
             width: 31%;
             right: 10%;
-            bottom: -10px;
+            bottom: 150px;
         }
 
         .repair-item img {

@@ -25,6 +25,9 @@ import Repair from './Components/Repair/Repair.js';
 import Manufaktur from './Components/Manufaktur/Manufaktur.js';
 import Zuliebe from './Components/Zuliebe/Zuliebe.js';
 import Stimmen from './Components/Stimmen/Stimmen.js';
+import Massschuhe from './Components/Massschuhe/Massschuhe.js';
+import Pflege from './Components/Pflege/Pflege.js';
+import Impressum from './Components/Impressum/Impressum.js';
 import Footer from './Components/Footer/Footer.js';
 const NotFound = lazy(() => import('./Components/NotFound/NotFound'));
 
@@ -41,24 +44,44 @@ function App() {
                         classNames="fade"
                         >
                             <Switch location={location}>
-                                <Route path="/home">
+                                <Route path="/jubilaum">
                                         <Suspense fallback={<LazyLoad></LazyLoad>}>
-                                            
+                                            <Header/>
+                                            <Hero/>
+                                            <September/>
+                                            <Eleganz/>
+                                            <MeilenSlider/>
+                                            <Leistungen/>
+                                            <Repair/>
+                                            <Manufaktur/>
+                                            <Zuliebe/>
+                                            <Stimmen/>
+                                            <Footer/>
+                                            <SocialMedia/>
                                         </Suspense>
                                 </Route>
-                                <Route path="/profile/:outletKey">
+                                <Route path="/massschuhe">
                                         <Suspense fallback={<LazyLoad></LazyLoad>}>
-                                          <NotFound></NotFound>
+                                            <Header/>
+                                            <Massschuhe/>
+                                            <Footer/>
+                                            <SocialMedia/>
                                         </Suspense>
                                 </Route>
-                                <Route path="/about">
+                                <Route path="/pflege">
                                         <Suspense fallback={<LazyLoad></LazyLoad>}>
-                                          <NotFound></NotFound>
+                                            <Header/>
+                                            <Pflege/>
+                                            <Footer/>
+                                            <SocialMedia/>
                                         </Suspense>
                                 </Route>
-                                <Route path="/contact">
+                                <Route path="/impressum">
                                         <Suspense fallback={<LazyLoad></LazyLoad>}>
-                                            
+                                            <Header/>
+                                            <Impressum/>
+                                            <Footer/>
+                                            <SocialMedia/>
                                         </Suspense>
                                 </Route>
                                 <Route exact path="/">
