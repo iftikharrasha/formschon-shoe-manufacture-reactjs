@@ -53,8 +53,8 @@ const Hero = () => {
                             </Row>
                         </Container>
                     </div> 
-                    <div class="deco">
-                        <img class="img-fluid" src={deco} alt="deco"/>
+                    <div className="deco">
+                        <img className="img-fluid" src={deco} alt="deco"/>
                     </div>
                 </section>
         </>

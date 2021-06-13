@@ -81,8 +81,13 @@
 }
 
 .slick-dots li button:before {
-    font-size: 40px;
+    font-size: 14px;
     color: #a68260 !important;
+}
+
+.stitch{
+    position: absolute;
+    top: 420px;
 }
 
  /* Extra small devices (portrait phones, less than 576px) */
@@ -112,8 +117,10 @@
         bottom: -100px;
     }
 
-    .responsive2 .slick-dots {
-        bottom: 145px;
+    
+
+    .stitch{
+        top: 600px;
     }
   }
   
@@ -143,14 +150,8 @@
         right: 41%;
     }
 
-    .responsive2 .slick-next {
-        top: 100px;
-        right: 12%;
-    }
-
-    .responsive2 .slick-prev {
-        top: 100px;
-        right: 26%;
+    .stitch{
+        top: 600px;
     }
   }
   
@@ -169,6 +170,20 @@
      .m-item-img img {
         width: 65%;
     }
+
+    .stitch{
+        top: 600px;
+    }
+
+    .responsive1 .slick-prev {
+        top: 650px;
+        right: 55%;
+    }
+
+    .responsive1 .slick-next {
+        top: 650px;
+        right: 41%;
+    }
   }
   
   /* Large devices(md) (desktops, 992px and up) */
@@ -184,6 +199,20 @@
         top: 45px;
         left: 180px;
     }
+
+    .stitch{
+        top: 500px;
+    }
+
+    .responsive1 .slick-prev {
+        top: 600px;
+        right: 55%;
+    }
+
+    .responsive1 .slick-next {
+        top: 600px;
+        right: 45%;
+    }
   }
   
   /* Extra large devices (large desktops, 1200px and up) */
@@ -194,6 +223,10 @@
         padding: 70px;
         top: 45px;
         left: 220px;
+    }
+
+    .stitch{
+        top: 530px;
     }
   }
     

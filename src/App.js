@@ -8,20 +8,20 @@ import ScrollToTop from './ScrollToTop.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import { Button } from 'react-bootstrap';
 import {
   CSSTransition,
   TransitionGroup,
 } from 'react-transition-group';
 import LazyLoad from './Components/LayLoadSpinner/LazyLoadSpinner';
 import Hero from './Components/Hero/Hero';
-// import logo from './logo.svg';
 import './App.css';
 import SocialMedia from './Components/SocialMedia/SocialMedia.js';
 import September from './Components/September/September.js';
 import Header from './Components/Header/Header.js';
 import Eleganz from './Components/Eleganz/Eleganz.js';
 import MeilenSlider from './Components/MeilenSlider/MeilenSlider.js';
+import Leistungen from './Components/Leistungen/Leistungen.js';
+import Repair from './Components/Repair/Repair.js';
 const NotFound = lazy(() => import('./Components/NotFound/NotFound'));
 
 function App() {
@@ -59,12 +59,14 @@ function App() {
                                 </Route>
                                 <Route exact path="/">
                                         <Suspense fallback={<LazyLoad></LazyLoad>}>
-                                            <Header></Header>
-                                            <Hero></Hero>
-                                            <September></September>
-                                            <Eleganz></Eleganz>
-                                            <MeilenSlider></MeilenSlider>
-                                            <SocialMedia></SocialMedia>
+                                            <Header/>
+                                            <Hero/>
+                                            <September/>
+                                            <Eleganz/>
+                                            <MeilenSlider/>
+                                            <Leistungen/>
+                                            <Repair/>
+                                            <SocialMedia/>
                                         </Suspense>
                                 </Route>
                                 <Route path="*">

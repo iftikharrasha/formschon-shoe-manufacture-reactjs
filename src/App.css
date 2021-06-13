@@ -188,38 +188,34 @@ a, select , input , textarea , button{
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 	.lit-23 {
-    font-size: 16px;
-    letter-spacing: 2px;
-    line-height: 32px;
-  }
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 32px;
+    }
 
-  .sem-200 {
-      font-size: 45px;
-  }
+    .sem-200 {
+        font-size: 45px;
+    }
 
-  .sem-124 {
-      font-size: 45px;
-      line-height: 44px;
-      letter-spacing: -1px;
-  }
+	.sem-124 {
+        font-size: 45px;
+        line-height: 44px;
+        letter-spacing: -1px;
+    }
 
-  .sem-60 {
-      font-size: 34px;
-  }
+    .sem-60 {
+        font-size: 34px;
+    }
 
-  .reg-22 {
-      font-size: 14px;
-      letter-spacing: 0px;
-  }
+    .reg-22 {
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
 
-  .reg-24 {
-      font-size: 18px;
-      line-height: 25px;
-  }
-
-  .reg-24 {
-      font-size: 17px;
-  }
+    .reg-24 {
+        font-size: 17px;
+        line-height: 25px;
+    }
 
   .btn-tag-1 {
       padding: 15px 16px;
@@ -324,22 +320,22 @@ a, select , input , textarea , button{
 
 	.lit-23 {
         font-size: 18px;
-        letter-spacing: 5px;
+        letter-spacing: 7px;
     }
 
     .sem-200 {
-        font-size: 100px;
+        font-size: 130px;
     }
 
 	.sem-124 {
-        font-size: 81px;
-        line-height: 78px;
-        letter-spacing: -3px;
+        font-size: 100px;
+        line-height: 98px;
+        letter-spacing: -6px;
     }
 
     .reg-22 {
         font-size: 18px;
-        letter-spacing: 0px;
+        letter-spacing: 1px;
     }
     
     .mt-lei-300{
@@ -362,26 +358,26 @@ a, select , input , textarea , button{
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1300px) and (max-width: 1531.98px){
     .reg-24 {
-        font-size: 19px;
+        font-size: 21px;
     }
 
-	.lit-23 {
-        font-size: 18px;
-        letter-spacing: 7px;
+    .lit-23 {
+        font-size: 20px;
+        letter-spacing: 8px;
     }
 
     .sem-200 {
-        font-size: 130px;
+        font-size: 180px;
     }
 
 	.sem-124 {
-        font-size: 100px;
-        line-height: 98px;
+        font-size: 110px;
+        line-height: 107px;
         letter-spacing: -6px;
     }
 
     .reg-22 {
-        font-size: 18px;
+        font-size: 20px;
         letter-spacing: 1px;
     }
 
@@ -412,45 +408,7 @@ a, select , input , textarea , button{
   
 /* Extra large devices (large desktops, 1442px and up) */
 @media (min-width: 1532px) and (max-width: 2499.99px) {
-    .reg-24 {
-        font-size: 21px;
-    }
-
-    .lit-23 {
-        font-size: 20px;
-        letter-spacing: 8px;
-    }
-
-    .sem-200 {
-        font-size: 180px;
-    }
-
-	.sem-124 {
-        font-size: 110px;
-        line-height: 107px;
-        letter-spacing: -6px;
-    }
-
-    .reg-22 {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
     
-    .mt-lei-300{
-        margin-top: 280px;
-    }
-
-    .mt-300 {
-        margin-top: 200px;
-    }
-
-    .mt-sep-130 {
-        margin-top: 130px;
-    }
-
-    .mx-leder{
-        margin-left: 3rem !important;
-    }
 }
 
 /* Extra large devices (large desktops, 1900px and up) */

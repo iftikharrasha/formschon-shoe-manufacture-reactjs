@@ -1,0 +1,244 @@
+.responsive2{
+    position: relative;
+    z-index: 999;
+}
+
+.repair-item{
+    width:100%;
+    position: relative;
+}
+
+.repair-text {
+    width: 25%;
+    position: absolute;
+    z-index: 1;
+    bottom: 40px;
+    right: 10%;
+}
+
+.repair-text h2 {
+    position: relative;
+    right: 150px;
+}
+
+.repair-item img{
+    width: 85%;
+}
+
+.responsive2 .slick-prev {
+    z-index: 9999;
+    top: 764px;
+    left: auto;
+    right: 52%;
+    z-index: 1;
+}
+
+.responsive2 .slick-next {
+    z-index: 9999;
+    top: 764px;
+    right: 45%;
+    z-index: 1;
+}
+
+.deco2 {
+    position: absolute;
+    top: 560px;
+    right: 0px;
+}
+
+  /* Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) {
+    .repair-item {
+        height: 800px;
+    }
+
+    .repair-text {
+        width: 80%;
+        right: 10%;
+        top: 275px;
+    }
+
+    .repair-text h2 {
+        position: absolute;
+        left: 0;
+        bottom: 450px;
+    }
+
+    .repair-item img {
+        width: 100%;
+    }
+
+    .deco2 {
+        width: 30%;
+        top: 600px;
+    }
+
+    .responsive2 .slick-dots {
+        bottom: 145px;
+    }
+  }
+  
+    /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .repair-item {
+        height: 600px;
+    }
+
+    .repair-text {
+        width: 70%;
+        right: 10%;
+        top: 275px;
+    }
+
+    .repair-text h2 {
+        position: absolute;
+        right: 0;
+        bottom: 250px;
+    }
+
+    .repair-item img {
+        width: 60%;
+    }
+  }
+  
+  /* Medium devices(sm) (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .coffee-color {
+        height: 724px;
+    }
+
+    .leistungen {
+        height: 724px;
+    }
+
+    .repair-item {
+        height: 600px;
+    }
+
+    .repair-text {
+        width: 70%;
+        right: 10%;
+        top: 275px;
+    }
+
+    .repair-text h2 {
+        position: absolute;
+        right: 0;
+        bottom: 250px;
+    }
+
+    .repair-item img {
+        width: 75%;
+    }
+
+    .responsive2 .slick-next {
+        top: 100px;
+        right: 15%;
+    }
+
+    .responsive2 .slick-prev {
+        top: 100px;
+        right: 30%;
+    }
+  }
+  
+  /* Large devices(md) (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1299.98px) {
+    .coffee-color {
+        height: 724px;
+    }
+
+    .leistungen {
+        height: 724px;
+    }
+
+    .repair-item {
+        height: 700px;
+    }
+
+    .repair-text {
+        width: 31%;
+        right: 10%;
+        top: 40px;
+    }
+
+    .repair-item img {
+        width: 75%;
+    }
+
+    .responsive2 .slick-next {
+        top: 570px;
+    }
+
+    .responsive2 .slick-prev {
+        top: 570px;
+        right: 55%;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1300px) and (max-width: 1531.98px){
+        .coffee-color {
+            height: 824px;
+        }
+
+        .leistungen {
+            height: 824px;
+        }
+
+       .repair-text {
+            width: 31%;
+            right: 10%;
+            bottom: -10px;
+        }
+
+        .repair-item img {
+            width: 75%;
+        }
+
+        .responsive2 .slick-next {
+            top: 660px;
+        }
+
+        .responsive2 .slick-prev {
+            top: 660px;
+        }
+
+        .deco2 {
+            top: 500px;
+        }
+  }
+    
+  /* Extra large devices (large desktops, 1442px and up) */
+  @media (min-width: 1532px) and (max-width: 2499.99px) {
+    
+  }
+  
+  /* Extra large devices (large desktops, 1900px and up) */
+  @media (min-width: 2500px) {
+      
+  }
+  
+    
+  /*
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  /****** Extra extra small devices (s6 mobiles, 320px and below) *******/
+  @media (max-width: 320px) {
+    .responsive2 .slick-dots {
+        bottom: 0;
+    }
+  }
+  
+  /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
+  @media (min-width: 321px) and (max-width: 376px) {
+    .responsive2 .slick-dots {
+        bottom: 0;
+    }
+  }
+  

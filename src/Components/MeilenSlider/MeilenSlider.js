@@ -18,7 +18,7 @@ import './MeilenSlider.css';
 
 
 const MeilenSlider = () => {
-    var settings = {
+    var settings1 = {
         slidesToShow: 2,
         slidesToScroll: 1,
         dots: false,
@@ -31,14 +31,14 @@ const MeilenSlider = () => {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     infinite: true,
                     dots: false
                 },
             },
             {
-                breakpoint: 600,
+                breakpoint: 800,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -69,9 +69,9 @@ const MeilenSlider = () => {
                         </Col>
                     </Row>
                     <Row className="row py-5">
-                        <Col md={12} className="responsive">
+                        <Col md={12} className="responsive1">
                             
-                            <Slider {...settings}>
+                            <Slider {...settings1}>
 
                                 <div className="milestone-item">
                                     <div className="m-item-img">
