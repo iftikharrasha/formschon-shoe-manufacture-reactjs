@@ -1,0 +1,111 @@
+.zuliebe{
+    overflow: hidden;
+}
+
+.zuliebe-left{
+    width: 50%;
+    float: left;
+}
+
+.zuliebe-right{
+    width: 50%;
+    float: right;
+    height: 830px;
+}
+
+  /* Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) {
+    .zuliebe-left {
+        width: 100%;
+        float: none;
+    }
+
+    .zuliebe-right {
+        width: 100%;
+        float: none;
+        height: auto;
+        padding: 50px 0;
+    }
+  }
+  
+    /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .zuliebe-left {
+        width: 100%;
+        float: none;
+    }
+
+    .zuliebe-right {
+        width: 100%;
+        float: none;
+        height: auto;
+        padding: 50px 0;
+    }
+  }
+  
+  /* Medium devices(sm) (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .zuliebe-left {
+        width: 100%;
+        float: none;
+    }
+
+    .zuliebe-right {
+        width: 100%;
+        float: none;
+        height: auto;
+        padding: 50px 0;
+    }
+  }
+  
+  /* Large devices(md) (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1299.98px) {
+    .zuliebe {
+        padding-top: 100px;
+    }
+
+    .zuliebe-right img{
+        width: 15%;
+    }
+
+    .zuliebe-right {
+        height: auto;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1300px) and (max-width: 1531.98px){
+    .zuliebe-right {
+        height: 600px;
+    }
+  }
+    
+  /* Extra large devices (large desktops, 1442px and up) */
+  @media (min-width: 1532px) and (max-width: 2499.99px) {
+   
+  }
+  
+  /* Extra large devices (large desktops, 1900px and up) */
+  @media (min-width: 2500px) {
+      
+  }
+  
+    
+  /*
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  /****** Extra extra small devices (s6 mobiles, 320px and below) *******/
+  @media (max-width: 320px) {
+      
+  }
+  
+  /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
+  @media (min-width: 321px) and (max-width: 376px) {
+      
+  }
+  

@@ -22,6 +22,8 @@ import Eleganz from './Components/Eleganz/Eleganz.js';
 import MeilenSlider from './Components/MeilenSlider/MeilenSlider.js';
 import Leistungen from './Components/Leistungen/Leistungen.js';
 import Repair from './Components/Repair/Repair.js';
+import Manufaktur from './Components/Manufaktur/Manufaktur.js';
+import Zuliebe from './Components/Zuliebe/Zuliebe.js';
 const NotFound = lazy(() => import('./Components/NotFound/NotFound'));
 
 function App() {
@@ -66,6 +68,8 @@ function App() {
                                             <MeilenSlider/>
                                             <Leistungen/>
                                             <Repair/>
+                                            <Manufaktur/>
+                                            <Zuliebe/>
                                             <SocialMedia/>
                                         </Suspense>
                                 </Route>
