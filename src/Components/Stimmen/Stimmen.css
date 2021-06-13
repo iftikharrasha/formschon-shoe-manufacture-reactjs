@@ -1,0 +1,128 @@
+.stimmen{
+    background-image: url(../../img/back-floral.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.stimmen-inner {
+    position: relative;
+    width: 80% !important;
+    left: 10%;
+    padding: 50px 200px;
+    border: 2px solid #A68260;
+    background-color: #fff;
+    min-height: 476px;
+}
+
+.responsive3 .slick-prev {
+    left: 2%;
+    z-index: 1;
+}
+
+.responsive3 .slick-next {
+    right: 2%;
+    z-index: 1;
+}
+
+
+  /* Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) {
+    .py-st-300 {
+        padding: 100px 0;
+    }
+
+    .stimmen-inner {
+        padding: 20px;
+    }
+
+    .stimmen-inner h2 {
+        font-size: 16px;
+    }
+  }
+  
+    /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .py-st-300 {
+        padding: 100px 0;
+    }
+
+    .stimmen-inner {
+        width: 70% !important;
+        left: 15%;
+        padding: 50px;
+    }
+
+    .stimmen-inner h2 {
+        font-size: 30px;
+    }
+  }
+  
+  /* Medium devices(sm) (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .py-st-300 {
+        padding: 100px 0;
+    }
+
+    .stimmen-inner {
+        width: 70% !important;
+        left: 15%;
+        padding: 50px;
+    }
+
+    .stimmen-inner h2 {
+        font-size: 30px;
+    }
+  }
+  
+  /* Large devices(md) (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1299.98px) {
+    .py-st-300 {
+        padding: 100px 0;
+    }
+
+    .stimmen-inner {
+        padding: 50px;
+    }
+
+    .stimmen-inner h2 {
+        font-size: 50px;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1300px) and (max-width: 1531.98px){
+    .py-st-300 {
+        padding: 200px 0;
+    }
+  }
+    
+  /* Extra large devices (large desktops, 1442px and up) */
+  @media (min-width: 1532px) and (max-width: 2499.99px) {
+   
+  }
+  
+  /* Extra large devices (large desktops, 1900px and up) */
+  @media (min-width: 2500px) {
+      
+  }
+  
+    
+  /*
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  /****** Extra extra small devices (s6 mobiles, 320px and below) *******/
+  @media (max-width: 320px) {
+      
+  }
+  
+  /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
+  @media (min-width: 321px) and (max-width: 376px) {
+      
+  }
+  

@@ -24,6 +24,8 @@ import Leistungen from './Components/Leistungen/Leistungen.js';
 import Repair from './Components/Repair/Repair.js';
 import Manufaktur from './Components/Manufaktur/Manufaktur.js';
 import Zuliebe from './Components/Zuliebe/Zuliebe.js';
+import Stimmen from './Components/Stimmen/Stimmen.js';
+import Footer from './Components/Footer/Footer.js';
 const NotFound = lazy(() => import('./Components/NotFound/NotFound'));
 
 function App() {
@@ -70,6 +72,8 @@ function App() {
                                             <Repair/>
                                             <Manufaktur/>
                                             <Zuliebe/>
+                                            <Stimmen/>
+                                            <Footer/>
                                             <SocialMedia/>
                                         </Suspense>
                                 </Route>
