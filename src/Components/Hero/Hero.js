@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';  
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -40,13 +41,8 @@ const Hero = () => {
                                         <p className="text-uppercase lit-23" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">Immer einen Schritt voraus</p>
                                         <h1 className="sem-124 mb-5" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500">20 Jahre<br/>Schuhmanufaktur<br/>Formschön</h1>
                                         <div className="call-to-act">
-                                            <a className="text-uppercase btn-tag-1 bg-tag-1 reg-22 c-tag-4" href="#leistungen" data-aos="fade-in" data-aos-delay="1000" data-aos-duration="1800">
-                                                Das leisten wir für Sie
-                                            </a>
-
-                                            <a className="text-uppercase btn-tag-1 reg-22 c-tag-4" href="#chronologie" data-aos="fade-in" data-aos-delay="1200" data-aos-duration="2000">
-                                                <u>Feiern Sie mit uns!</u> 
-                                            </a>
+                                            <Link to="/home#leistungen" className="text-uppercase btn-tag-1 bg-tag-1 reg-22 c-tag-4" data-aos="fade-in" data-aos-delay="1000" data-aos-duration="1800">Das leisten wir für Sie</Link>
+                                            <Link to="/home#chronologie" className="text-uppercase btn-tag-1 reg-22 c-tag-4" href="#chronologie" data-aos="fade-in" data-aos-delay="1200" data-aos-duration="2000"><u>Feiern Sie mit uns!</u></Link>
                                         </div>
                                     </div>
                                 </Col>

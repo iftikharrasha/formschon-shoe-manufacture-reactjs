@@ -84,8 +84,8 @@
         height: 550px;
     }
 
-    .h-sm{
-        height: 700px;
+    .h-sm {
+        height: 800px;
     }
 
     .lei-text {
@@ -194,10 +194,16 @@
     .leder-text {
         bottom: 270px;
     }
+
+    .h-sm {
+        height: 1000px;
+    }
   }
   
   /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
   @media (min-width: 321px) and (max-width: 376px) {
-      
+    .h-sm {
+        height: 900px;
+    }
   }
   

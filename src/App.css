@@ -3,10 +3,38 @@
 	padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Poppins', sans-serif;
 	color: #F7F8FA;
 	background-color: #000000;
+}
+
+.App{
+  position:relative;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.fade-enter{
+  opacity: 0;
+}
+.fade-exit{
+  opacity: 1;
+}
+.fade-enter-active{
+  opacity: 1;
+}
+.fade-exit-active{
+  opacity: 0;
+}
+.fade-enter-active,
+.fade-exit-active{
+  transition: opacity 400ms;
 }
 
 h1,h2,h3,h4,h5,h6,p{
@@ -67,30 +95,6 @@ a, select , input , textarea , button{
 
 .mt-300{
 	margin-top: 300px;
-}
-
-/* .App{
-  position:relative;
-  top: 0;
-  left: 0;
-  right: 0;
-} */
-
-.fade-enter{
-  opacity: 0;
-}
-.fade-exit{
-  opacity: 1;
-}
-.fade-enter-active{
-  opacity: 1;
-}
-.fade-exit-active{
-  opacity: 0;
-}
-.fade-enter-active,
-.fade-exit-active{
-  transition: opacity 400ms;
 }
 
 /* buttons */

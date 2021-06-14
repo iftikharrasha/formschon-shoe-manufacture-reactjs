@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Slider from 'react-slick';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import stitch from '../../img/stitch.png';
 import flower from '../../img/flower.png';
 import img2001 from '../../img/2001.png';
@@ -60,12 +62,12 @@ const MeilenSlider = () => {
         <>
             <section className="milestone py-5">
                 <div className="stitch">
-                    <img className="img-fluid" src={stitch} alt="stitch"/>
+                    <LazyLoadImage effect="blur" className="img-fluid" src={stitch} alt="stitch"/>
                 </div>
                 <Container className="c_custom">
                     <Row className="pb-3">
                         <Col md={12}>
-                            <h2 className="sem-60">Meilensteine <img src={flower} alt="flower-icon"/></h2>
+                            <h2 className="sem-60">Meilensteine <LazyLoadImage effect="blur" src={flower} alt="flower-icon"/></h2>
                         </Col>
                     </Row>
                     <Row className="row py-5">
@@ -75,7 +77,7 @@ const MeilenSlider = () => {
 
                                 <div className="milestone-item">
                                     <div className="m-item-img">
-                                        <img className="img-fluid" src={img2001} alt="2001"/>
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={img2001} alt="2001"/>
                                     </div>
                                     <div className="m-item-details">
                                         <h3 className="c-tag-2 reg-30 mb-3" data-aos="fade-in" data-aos-delay="200" data-aos-duration="1200">September 2001.</h3>
@@ -85,7 +87,7 @@ const MeilenSlider = () => {
 
                                 <div className="milestone-item">
                                     <div className="m-item-img">
-                                        <img className="img-fluid" src={img2004} alt="2004"/>
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={img2004} alt="2004"/>
                                     </div>
                                     <div className="m-item-details">
                                         <h3 className="c-tag-2 reg-30 mb-3" data-aos="fade-in" data-aos-delay="200" data-aos-duration="1200">September 2004.</h3>
@@ -95,7 +97,7 @@ const MeilenSlider = () => {
 
                                 <div className="milestone-item">
                                     <div className="m-item-img">
-                                        <img className="img-fluid" src={img2007} alt="2007"/>
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={img2007} alt="2007"/>
                                     </div>
                                     <div className="m-item-details">
                                         <h3 className="c-tag-2 reg-30 mb-3" data-aos="fade-in" data-aos-delay="200" data-aos-duration="1200">August 2007</h3>
@@ -105,7 +107,7 @@ const MeilenSlider = () => {
 
                                 <div className="milestone-item">
                                     <div className="m-item-img">
-                                        <img className="img-fluid" src={img2010} alt="2010"/>
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={img2010} alt="2010"/>
                                     </div>
                                     <div className="m-item-details">
                                         <h3 className="c-tag-2 reg-30 mb-3" data-aos="fade-in" data-aos-delay="200" data-aos-duration="1200">Mai 2010</h3>
@@ -115,7 +117,7 @@ const MeilenSlider = () => {
 
                                 <div className="milestone-item">
                                     <div className="m-item-img">
-                                        <img className="img-fluid" src={img2014} alt="2014"/>
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={img2014} alt="2014"/>
                                     </div>
                                     <div className="m-item-details">
                                         <h3 className="c-tag-2 reg-30 mb-3" data-aos="fade-in" data-aos-delay="200" data-aos-duration="1200">Oktober 2014</h3>
@@ -125,7 +127,7 @@ const MeilenSlider = () => {
 
                                 <div className="milestone-item">
                                     <div className="m-item-img">
-                                        <img className="img-fluid" src={img2015} alt="2015"/>
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={img2015} alt="2015"/>
                                     </div>
                                     <div className="m-item-details">
                                         <h3 className="c-tag-2 reg-30 mb-3" data-aos="fade-in" data-aos-delay="200" data-aos-duration="1200">Dezember 2015</h3>
@@ -135,7 +137,7 @@ const MeilenSlider = () => {
 
                                 <div className="milestone-item">
                                     <div className="m-item-img">
-                                        <img className="img-fluid" src={img2016} alt="2016"/>
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={img2016} alt="2016"/>
                                     </div>
                                     <div className="m-item-details">
                                         <h3 className="c-tag-2 reg-30 mb-3" data-aos="fade-in" data-aos-delay="200" data-aos-duration="1200">März 2016</h3>
@@ -145,7 +147,7 @@ const MeilenSlider = () => {
 
                                 <div className="milestone-item">
                                     <div className="m-item-img">
-                                        <img className="img-fluid" src={img2017} alt="2017"/>
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={img2017} alt="2017"/>
                                     </div>
                                     <div className="m-item-details">
                                         <h3 className="c-tag-2 reg-30 mb-3" data-aos="fade-in" data-aos-delay="200" data-aos-duration="1200">Januar 2017</h3>
@@ -155,7 +157,7 @@ const MeilenSlider = () => {
 
                                 <div className="milestone-item">
                                     <div className="m-item-img">
-                                        <img className="img-fluid" src={img20172} alt="2017-2"/>
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={img20172} alt="2017-2"/>
                                     </div>
                                     <div className="m-item-details">
                                         <h3 className="c-tag-2 reg-30 mb-3" data-aos="fade-in" data-aos-delay="200" data-aos-duration="1200">Dezember 2017</h3>
@@ -165,7 +167,7 @@ const MeilenSlider = () => {
 
                                 <div className="milestone-item">
                                     <div className="m-item-img">
-                                        <img className="img-fluid" src={img2019} alt="2019"/>
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={img2019} alt="2019"/>
                                     </div>
                                     <div className="m-item-details">
                                         <h3 className="c-tag-2 reg-30 mb-3" data-aos="fade-in" data-aos-delay="200" data-aos-duration="1200">September 2019</h3>
@@ -175,7 +177,7 @@ const MeilenSlider = () => {
 
                                 <div className="milestone-item">
                                     <div className="m-item-img">
-                                        <img className="img-fluid" src={img2021} alt="2021"/>
+                                        <LazyLoadImage effect="blur" className="img-fluid" src={img2021} alt="2021"/>
                                     </div>
                                     <div className="m-item-details">
                                         <h3 className="c-tag-2 reg-30 mb-3" data-aos="fade-in" data-aos-delay="200" data-aos-duration="1200">September 2021</h3>

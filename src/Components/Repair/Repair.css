@@ -12,7 +12,7 @@
     width: 25%;
     position: absolute;
     z-index: 1;
-    bottom: 40px;
+    bottom: 0px;
     right: 10%;
 }
 
@@ -61,7 +61,7 @@
     .repair-text h2 {
         position: absolute;
         left: 0;
-        bottom: 450px;
+        bottom: 500px;
     }
 
     .repair-item img {
@@ -74,7 +74,7 @@
     }
 
     .responsive2 .slick-dots {
-        bottom: 145px;
+        bottom: 75px;
     }
   }
   
@@ -93,11 +93,15 @@
     .repair-text h2 {
         position: absolute;
         right: 0;
-        bottom: 250px;
+        bottom: 290px;
     }
 
     .repair-item img {
         width: 60%;
+    }
+
+    .responsive2 .slick-next {
+        right: 35%;
     }
   }
   
@@ -124,7 +128,7 @@
     .repair-text h2 {
         position: absolute;
         right: 0;
-        bottom: 250px;
+        bottom: 290px;
     }
 
     .repair-item img {
@@ -235,14 +239,15 @@
   /****** Extra extra small devices (s6 mobiles, 320px and below) *******/
   @media (max-width: 320px) {
     .responsive2 .slick-dots {
-        bottom: 0;
+        bottom: -50px;
     }
   }
   
   /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
   @media (min-width: 321px) and (max-width: 376px) {
+
     .responsive2 .slick-dots {
-        bottom: 0;
+        bottom: 15px;
     }
   }
   

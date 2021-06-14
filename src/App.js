@@ -1,4 +1,6 @@
 import { React, lazy, Suspense } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 import {
   BrowserRouter as Router,
   Switch,
@@ -32,6 +34,8 @@ import Footer from './Components/Footer/Footer.js';
 const NotFound = lazy(() => import('./Components/NotFound/NotFound'));
 
 function App() {
+  AOS.init();
+  
   return (
     <div className="App">
         <Router>
@@ -44,7 +48,7 @@ function App() {
                         classNames="fade"
                         >
                             <Switch location={location}>
-                                <Route path="/jubilaum">
+                                <Route path="/zuhause">
                                         <Suspense fallback={<LazyLoad></LazyLoad>}>
                                             <Header/>
                                             <Hero/>
@@ -80,7 +84,6 @@ function App() {
                                         <Suspense fallback={<LazyLoad></LazyLoad>}>
                                             <Header/>
                                             <Impressum/>
-                                            <Footer/>
                                             <SocialMedia/>
                                         </Suspense>
                                 </Route>

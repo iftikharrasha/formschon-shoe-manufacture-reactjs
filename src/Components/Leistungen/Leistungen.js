@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import bild01 from '../../img/bild01.png';
 import './Leistungen.css';
 
@@ -27,7 +29,7 @@ const Leistungen = () => {
                             </div>
                         </div>
                         <Col md={6} className="offset-md-6 overflowX">
-                            <img className="img-fluid" src={bild01} alt="bild01" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1200"/>
+                            <LazyLoadImage effect="blur" className="img-fluid" src={bild01} alt="bild01" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1200"/>
                         </Col>
                     </Row>
                 </Container>
