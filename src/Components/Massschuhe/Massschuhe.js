@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import ihrem from '../../img/ihrem.png';
+import ihrem from '../../img/ihrem.jpg';
 import './Massschuhe.css';
 
 const Massschuhe = () => {

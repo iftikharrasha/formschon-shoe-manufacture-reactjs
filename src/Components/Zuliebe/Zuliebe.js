@@ -1,5 +1,5 @@
 import React from 'react';
-import zuliebe from '../../img/zuliebe.png';
+import zuliebe from '../../img/zuliebe.jpg';
 import flowerBig from '../../img/flower-big.png';
 import './Zuliebe.css';
 

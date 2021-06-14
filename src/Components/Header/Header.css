@@ -127,6 +127,7 @@ rect {
 	position: absolute;
 	top: 0;
 	left: 0;
+    z-index: 1;
 }
   
 .menu {
@@ -136,7 +137,6 @@ rect {
 	position: absolute;
 	top: 0px;
 	left: -1000px;
-
 }
 
 nav .show {
@@ -153,6 +153,10 @@ nav .show {
     #hamburger {
         margin-left: 1%;
         margin-top: 10%;
+    }
+
+    .backgrounColorToggle {
+        margin-left: 22% !important;
     }
 
     .menu {

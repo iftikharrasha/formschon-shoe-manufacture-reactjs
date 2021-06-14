@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import bild01 from '../../img/bild01.png';
+import bild01 from '../../img/bild01.jpg';
 import './Leistungen.css';
 
 const Leistungen = () => {

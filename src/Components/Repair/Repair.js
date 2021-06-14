@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Slider from 'react-slick';
-import bild02 from '../../img/bild02.png';
-import bild03 from '../../img/bild03.png';
-import bild04 from '../../img/bild04.png';
+import bild02 from '../../img/bild02.jpg';
+import bild03 from '../../img/bild03.jpg';
+import bild04 from '../../img/bild04.jpg';
 import deco from '../../img/deco.png';
 import './Repair.css';
 

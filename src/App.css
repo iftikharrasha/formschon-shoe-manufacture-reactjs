@@ -439,12 +439,6 @@ a, select , input , textarea , button{
     .mt-lei-300{
         margin-top: 100px;
     }
-
-    .btn-tag-1:last-child {
-        display: block;
-        margin-top: 10px;
-    }
-    
 }
 
 /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
@@ -456,10 +450,5 @@ a, select , input , textarea , button{
 
     .mt-lei-300{
         margin-top: 100px;
-    }
-
-    .btn-tag-1:last-child {
-        display: block;
-        margin-top: 10px;
     }
 }
