@@ -14,20 +14,18 @@ const Header = () => {
         document.getElementById('middle').classList.toggle('middle');
         document.getElementById('bottom').classList.toggle('bottom');
     }
-
     
     const checkpoint = 300;
     let opacity;
     window.addEventListener("scroll", () => {
-    const currentScroll = window.pageYOffset;
-    if (currentScroll <= checkpoint) {
-        opacity = 1 - currentScroll / checkpoint;
-    } else {
-        opacity = 0;
-    }
-    document.querySelector(".brand").style.opacity = opacity;
+	const currentScroll = window.pageYOffset;
+		if (currentScroll <= checkpoint) {
+			opacity = 1 - currentScroll / checkpoint;
+		} else {
+			opacity = 0;
+		}
+		document.querySelector(".brand").style.opacity = opacity;
     });
-      
 
     return (
         <>
