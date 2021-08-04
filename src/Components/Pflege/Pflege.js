@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import pflege from '../../img/pflege.jpg';
+import pflege from '../../img/pflege.webp';
 import './Pflege.css';
 
 const Pflege = () => {

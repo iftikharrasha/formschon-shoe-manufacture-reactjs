@@ -4,9 +4,9 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';  
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import bg01 from '../../img/header-visuel-1.jpg';
-import bg02 from '../../img/header-visuel-2.jpg';
-import bg03 from '../../img/header-visuel-3.jpg';
+import bg01 from '../../img/header-visuel-1.webp';
+import bg02 from '../../img/header-visuel-2.webp';
+import bg03 from '../../img/header-visuel-3.webp';
 import deco from '../../img/deco.png';
 import './Hero.css';
 

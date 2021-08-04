@@ -5,17 +5,17 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import stitch from '../../img/stitch.png';
 import flower from '../../img/flower.png';
-import img2001 from '../../img/2001.jpg';
-import img2004 from '../../img/2004.jpg';
-import img2007 from '../../img/2007.jpg';
-import img2010 from '../../img/2010.jpg';
-import img2014 from '../../img/2014.jpg';
-import img2015 from '../../img/2015.jpg';
-import img2016 from '../../img/2016.jpg';
-import img20172 from '../../img/2017-2.jpg';
-import img2017 from '../../img/2017.jpg';
-import img2019 from '../../img/2019.jpg';
-import img2021 from '../../img/2021.jpg';
+import img2001 from '../../img/2001.webp';
+import img2004 from '../../img/2004.webp';
+import img2007 from '../../img/2007.webp';
+import img2010 from '../../img/2010.webp';
+import img2014 from '../../img/2014.webp';
+import img2015 from '../../img/2015.webp';
+import img2016 from '../../img/2016.webp';
+import img20172 from '../../img/2017-2.webp';
+import img2017 from '../../img/2017.webp';
+import img2019 from '../../img/2019.webp';
+import img2021 from '../../img/2021.webp';
 import './MeilenSlider.css';
 
 
